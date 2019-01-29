@@ -1,0 +1,237 @@
+	body{
+		width: 100vw;
+		height: 100vh;
+		color: white;
+	}
+	*{
+		margin: 0px;
+		padding: 0px;
+		box-sizing: border-box;
+		font-family: 'Dancing Script', cursive;
+		font-size: 20px;
+		overflow: hidden;
+	}
+	input{
+		width: 100%;
+		height: 50px;
+		padding: 0px 10px;
+	}
+	button{
+		width: 100%;
+		height: 50px;
+		border: none;
+		outline: none;
+		color: white;
+		background-color: #696969;
+		cursor: pointer;
+	}
+	/* account page */
+	#pageMyAccount button{
+		width: 100%;
+		height: 50px;
+		border: none;
+		outline: none;
+		color: white;
+		cursor: pointer;
+		margin: 1px;
+	}
+	#pageMyAccount input{
+		width: 100%;
+		height: 50px;
+		padding: 0px 10px;
+		margin-top: 1px;
+	}
+	#pageMyAccount{
+		width: 100vw;
+	  height: 100vh;
+		justify-content: center;
+	  align-items: center;
+		background-color: #000000;
+	}
+	.cPage.show{
+		display: grid;
+	}
+	.cPage{
+		display: grid;
+		width: 100vw;
+		height: 100vh;
+		overflow: hidden;
+		display: none;
+	}
+	.img-circle {
+	    border-radius: 50%;
+			width: 200px;
+			height: 200px;
+	}
+	/* account page */
+
+	.cMarginTop10{
+		margin-top: 10px;
+	}
+
+	/* login page */
+	#pageLogin{
+		width: 100vw;
+	  height: 100vh;
+		justify-content: center;
+	  align-items: center;
+		background-color: #000000;
+	}
+	/* login page */
+
+	/* navbar page */
+	#navbar{
+		display: flex;
+	}
+	#btnNavMyAccount{
+	  display: none;
+	}
+	#btnUsers{
+		display: none;
+	}
+	#btnNavLogOut{
+	  display: none;
+	}
+	#btnNavCreateProducts{
+		 display: none;
+	}
+	#btnNavEditProducts{
+		display: none;
+	}
+	#btnSave{
+		display: block;
+	}
+	/* navbar page */
+
+	/* sign up page */
+	#pageSignup{
+		width: 100vw;
+		height: 100vh;
+		justify-content: center;
+		align-items: center;
+		background-color: #000000;
+	}
+	#welcomePage{
+		width: 100vw;
+		height: 100vh;
+		justify-content: center;
+	 	align-items: center;
+	 	background-color: #000000;
+	}
+	#checkBoxCreateUser{
+		width: 20px;
+		height: 20px;
+	}
+	/* sign up page*/
+
+	/* create product page */
+	#pageCreateProduct{
+		width: 100vw;
+		height: 100vh;
+		justify-content: center;
+		align-items: center;
+		background-color: #000000;
+	}
+/* create product page */
+
+/* page products */
+#pageProducts{
+	width: 100%;
+	height: 100%;
+	background-color: #000000;
+}
+#boxProducts{
+	display: flex;
+	width: 100vw;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 0px 10%;
+	padding-bottom: 60px;
+	overflow: auto;
+	height: 100vh;
+}
+.boxProduct{
+	display: inline-block;
+	flex-wrap: wrap;
+	margin:10px 0 0 2%;
+	flex-grow: 1;
+	flex-direction: column;
+	width: calc(100% * (1/4) - 10px - 1px);
+	align-items: center;
+	text-align: center;
+	box-sizing: border-box;
+}
+.boxProduct input{
+	height: 10%;
+	border: none;
+	background-color: rgba(1,1,1,0);
+	color: white;
+	text-align: center;
+}
+.boxProduct button{
+	width: 100%;
+	margin-top: 5px;
+
+}
+.showBtn{
+	display: none;
+}
+.showBtnProducts{
+	display: none;
+}
+#btnBuyProduct{
+	display: none;
+}
+.cProductImage{
+	display: none;
+	align-items: center;
+}
+/* page products */
+
+/* page users */
+#pageUsers{
+	width: 100vw;
+	height: 100vh;
+	background-color: #000000;
+	justify-content: center;
+	align-items: center;
+}
+#usersImages{
+	width: 50px;
+	height: 50px;
+}
+#boxUsers{
+	display: flex;
+	flex-wrap: wrap;
+	overflow: auto;
+	padding: 0px 10%;
+	width: 100vw;
+	padding-bottom: 60px;
+}
+#map{
+	height: 510px;
+  width: 20%;
+	margin-top: 210px;
+	margin-left: 50px;
+}
+#accountPage{
+	width: 20%;
+}
+.boxUser{
+	display: inline-block;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	margin:10px 0 0 2%;
+	flex-grow: 1;
+	flex-direction: column;
+	width: calc(100% * (1/4) - 10px - 1px);
+	align-items: center;
+	text-align: center;
+	box-sizing: border-box;
+}
+.cChangeUserStatus {
+	margin-top: 10px;
+}
+/* page users */
